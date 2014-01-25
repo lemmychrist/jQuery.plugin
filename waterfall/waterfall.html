@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>waterfall test</title>
+		<style type="text/css">
+			#idWaterfall {
+				list-style: none;
+			}
+			#idWaterfall .item {
+				width: 200px;
+				padding: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<ul id="idWaterfall">
+			<li class="item" style="background-color: rgb(66, 66, 66); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(102, 34, 68); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(240, 78, 35); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(102, 45, 145); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(0, 136, 126); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(0, 114, 188); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(66, 66, 66); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(102, 34, 68); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(240, 78, 35); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(102, 45, 145); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试试测试测试测试测试测试测试
+				</p>
+			</li>
+			<li class="item" style="background-color: rgb(0, 136, 126); color: rgb(255, 255, 255);">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试测试测试测试测试测试
+				</p>
+
+			</li>
+			<li class="item" style="background-color: rgb(0, 114, 188); color: rgb(255, 255, 255)">
+				<p>
+					测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试
+				</p>
+			</li>
+		</ul>
+		<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+		<script src="waterfall.js"></script>
+		<script>
+			$('#idWaterfall').waterfall({
+				//瀑布布局元素
+				item : 'li',
+				//瀑布布局栏数
+				column : 3,
+				//瀑布布局水平间距
+				horizontal : 10,
+				//瀑布布局垂直间距
+				vertical : 10,
+				//动画时间
+				animateDuringTime : 800
+			});
+		</script>
+	</body>
+</html>
+</html>
